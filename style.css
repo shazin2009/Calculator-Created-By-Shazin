@@ -1,0 +1,87 @@
+.calc{
+    width:400px;
+    height: 600px;
+    background: gray;
+    border-radius: 10px;
+    margin-left: 428px
+}
+#screen{
+    width: 323px;
+    margin-left: 36px;
+    height: 100px;
+    margin-top: 46px;
+    border-radius: 10px;
+    border-color: #ffffff00;
+    pointer-events: none ;
+    font-size: 55px
+}
+.btn{
+    width: 72px;
+    height: 57px;
+    margin-left: 17px;
+    margin-top: 13px;
+    font-size: 30px;
+    border-radius: 100px;
+    border-color: #ffffff00;
+    
+    
+}
+
+.row{
+    padding-left: 8px;
+    padding-top: 20px;
+    
+}
+.button{
+    padding-top:47px;
+}
+.output{
+    height: 127px;
+}
+.btnc{
+    width: 72px;
+    height: 57px;
+    margin-left: 25px;
+    margin-top: -7px;
+    font-size: 30px;
+    border-radius: 100px;
+    border-color: #ffffff00;
+    background: orange;
+}
+.btns{
+    width: 72px;
+    height: 57px;
+    margin-left: 17px;
+    margin-top: 13px;
+    font-size: 30px;
+    border-radius: 100px;
+    border-color: #ffffff00;
+    background: orange;
+}
+.btns:hover{
+    background: white;
+}
+.btnc:hover{
+    background:white;
+}
+.clc{
+    color:orange;
+    font-family:  Impact, Charcoal, sans-serif;
+    font-size: 42px;
+}
+
+body{
+background:rgb(20, 19, 16)
+}
+.crea{
+    color:orange;
+    font-family:  Impact, Charcoal, sans-serif;
+    font-size: 20px;
+}
+.btn:hover{
+    background:orange;
+}
+
+
+    
+    

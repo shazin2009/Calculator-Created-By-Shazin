@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="script.js"></script>
+</head>
+<body class="body">
+    <div class="main-boady">
+       <div class="heade">
+           <h1 class="clc">CALCULATOR</h1>
+           <h1 class="crea">created by Shazin</h1>
+       </div>
+        <div class="calc">
+            <div class="output">
+                <input id="screen" type="text">
+
+            </div>
+            <div class="button">
+                <div>
+                    <button class="btnc" onclick="clr()">C</button>  
+                </div>
+                <div class="row" class="row-1">
+                    <button class="btn" onclick="buttonclicked(7)">7</button>
+                    <button class="btn" onclick="buttonclicked(8)">8</button>
+                    <button class="btn" onclick="buttonclicked(9)">9</button>
+                    <button class="btns" onclick="buttonclicked('/')">/</button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="buttonclicked(4)">4</button>
+                    <button class="btn" onclick="buttonclicked(5)">5</button>
+                    <button class="btn" onclick="buttonclicked(6)">6</button>
+                    <button class="btns" onclick="buttonclicked('*')">x</button>  
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="buttonclicked(3)">3</button>
+                    <button class="btn" onclick="buttonclicked(2)">2</button>
+                    <button class="btn" onclick="buttonclicked(1)">1</button>
+                    <button class="btns" onclick="buttonclicked('-')">-</button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="buttonclicked('.')">.</button>
+                    <button class="btn" onclick="buttonclicked(0)">0</button>
+                    <button class="btns" onclick="buttonclicked('+')">+</button>
+                    <button class="btns" onclick="eql('=')">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
